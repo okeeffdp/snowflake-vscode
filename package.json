@@ -1,0 +1,32 @@
+{
+    "name": "snowflake-vscode",
+    "displayName": "Snowflake VSCode",
+    "description": "This extension will highlight keywords and functions for the [Snowflake](https://www.snowflake.com/) flavour of SQL in VSCode.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "Snowflake SQL",
+        "Snowflake",
+        "SQL",
+        "Snowflake Data Warehouse",
+        "Data Warehouse"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "snowflake",
+            "aliases": ["Snowflake", "snowflake"],
+            "extensions": [".snowql"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "snowflake",
+            "scopeName": "source.snowflake",
+            "path": "./syntaxes/snowflake.tmLanguage.json"
+        }]
+    }
+}
