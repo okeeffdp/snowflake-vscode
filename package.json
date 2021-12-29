@@ -17,16 +17,28 @@
         "Data Warehouse"
     ],
     "contributes": {
-        "languages": [{
-            "id": "snowflake",
-            "aliases": ["Snowflake", "snowflake"],
-            "extensions": [".snowql"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "snowflake",
-            "scopeName": "source.snowflake",
-            "path": "./syntaxes/snowflake.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "snowflake",
+                "aliases": [
+                    "Snowflake",
+                    "snowflake"
+                ],
+                "extensions": [
+                    ".snowql"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "snowflake",
+                "scopeName": "source.snowflake",
+                "path": "./syntaxes/snowflake.tmLanguage.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "js-yaml": "^4.1.0"
     }
 }
