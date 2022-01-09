@@ -1,0 +1,105 @@
+
+/*
+ * A test script
+ *
+ * TODO A thing
+ */
+
+// USE DATABASE "DEV";
+-- NOTE Comment here
+
+
+CREATE TABLE pkmn.top_fire  -- XXX
+SELECT
+  cast(number AS INT),
+  name,
+  type_1,
+  type_2,
+  '\* \n SOMETHING' AS test_1,
+  max(abs(attack)) AS attack,
+  try_to_binary(is_legendary) AS is_legendary,
+  IFF(name IS NULL, 1, 0)
+  case
+    when (attack + defense) > (special_attack + special_defense)
+    then 'physical'
+    else 'special'
+  end as strategy
+FROM
+  pkmn.stats
+WHERE
+  type_1 = 'fire'
+  OR type_2 <> 'water'
+  or number in (150, 300, 450)
+GROUP BY
+  number,
+  name,
+  type_1,
+  type_2
+HAVING
+  attack between -200.0 AND 100.10;
+
+SELECT
+TOP 4
+FROM
+  "DEV"."ZENDESK"."TICKETS"
+WHERE
+  datepartition BETWEEN '2020-09-01' AND current_date()
+ORDER BY
+  ticket_id DESC;
+
+
+ALTER TASK "DEV"."ZENDESK"."TICKETS" SUSPEND;
+
+create or replace table monthly_sales(empid int, amount int, month text)
+    as select * from values
+    (1, 10000, 'JAN'),
+    (1, 400, 'JAN'),
+    (2, 4500, 'JAN'),
+    (2, 35000, 'JAN'),
+    (1, 5000, 'FEB'),
+    (1, 3000, 'FEB'),
+    (2, 200, 'FEB'),
+    (2, 90500, 'FEB'),
+    (1, 6000, 'MAR'),
+    (1, 5000, 'MAR'),
+    (2, 2500, 'MAR'),
+    (2, 9500, 'MAR'),
+    (1, 8000, 'APR'),
+    (1, 10000, 'APR'),
+    (2, 800, 'APR'),
+    (2, 4500, 'APR');
+
+select
+  distinct empid as emp_id,
+  case
+    when month = 'JAN' then 'january' else month
+  end,
+  "'JAN'" as january,
+  "'FEB'" as february,
+  "'MAR'" as march,
+  "'APR'" as april
+from monthly_sales
+  pivot(bitshiftleft(amount) for month in ('JAN', 'FEB', 'MAR', 'APR')) as p
+order by empid desc;
+
+SELECT t.*
+FROM my.table as t
+LEFT JOIN my.other as o ON t.id = o.id
+
+
+create table collation_demo (
+  uncollated_phrase varchar,
+  utf8_phrase varchar collate 'utf8',
+  english_phrase varchar collate 'en',
+  spanish_phrase varchar collate 'sp'
+);
+
+insert into collation_demo (uncollated_phrase, utf8_phrase, english_phrase, spanish_phrase)
+    values ('pinata', 'pinata', 'pinata', 'piñata');
+
+
+create table if not exists mytable (date timestamp_ntz, id number, content variant) cluster by (date, id);
+
+-- show tables like 'mytable';
+
+SHOW TRANSACTIONS;
