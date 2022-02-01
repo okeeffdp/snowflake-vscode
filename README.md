@@ -8,9 +8,7 @@ Thanks for using this extension. If you have any issues you can report them via 
 
 The aim of this extension is the give a more accurate syntax highlighting for Snowflake SQL flavour used in the Snowlfake data warehouse. It colours keywords such as `IFF` to distinguish them from other database flavours of SQL, like Hive or Presto, so that code is more readible.
 
-\!\[Snowflake Code\]\(assets/example.png\)
-
-![Snowflake Code](./assets/example.png)
+![Snowflake Code](assets/example.png)
 
 The plugin automatically activates Snowflake syntax highlighting for files with the extension `*.snowql`.
 
