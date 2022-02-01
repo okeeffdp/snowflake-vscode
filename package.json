@@ -3,12 +3,22 @@
     "displayName": "Snowflake VSCode",
     "description": "This extension will highlight keywords and functions for the [Snowflake](https://www.snowflake.com/) flavour of SQL in VSCode.",
     "version": "0.0.1",
+    "author": {
+        "name": "Daniel O'Keeffe",
+        "email": "okeeffdp@tcd.ie"
+    },
     "engines": {
         "vscode": "^1.57.0"
     },
     "categories": [
         "Programming Languages"
     ],
+    "icon": "assets/snowflake-icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/okeeffdp/snowflake-vscode.git"
+    },
+    "homepage": "https://github.com/okeeffdp/snowflake-vscode/blob/main/README.md",
     "keywords": [
         "Snowflake SQL",
         "Snowflake",

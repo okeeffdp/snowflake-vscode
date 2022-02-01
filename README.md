@@ -1,6 +1,6 @@
 # snowflake-vscode
 
-This extension will highlight keywords and functions for the [Snowflake](https://www.snowflake.com/) flavour of SQL in Sublime Text 3.
+This extension will highlight keywords and functions for the [Snowflake](https://www.snowflake.com/) flavour of SQL in VSCode.
 
 ## Features
 
@@ -10,7 +10,7 @@ The aim of this extension is the give a more accurate syntax highlighting for Sn
 
 \!\[Snowflake Code\]\(assets/example.png\)
 
-![Snowflake Code](assets/example.png)
+![Snowflake Code](./assets/example.png)
 
 The plugin automatically activates Snowflake syntax highlighting for files with the extension `*.snowql`.
 
