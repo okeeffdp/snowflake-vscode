@@ -47,7 +47,7 @@
                     "name": "keyword.control.snowflake"
                 },
                 {
-                    "match": "\\b(?i:as|at|before|case|changes|connect by|cross|distinct|else|end|from|full|group by|group by cube|group by grouping sets|group by rollup|having|ilike|ilike any|insert|join|left|like|like all|like any|limit|natural|order by|pivot|partition by|qualify|on|outer|rlike|right|sample|select|tablesample|then|top|unpivot|using|values|when|where|with)\\b",
+                    "match": "\\b(?i:as|at|before|case|changes|connect by|cross|distinct|else|end|from|full|group by|group by cube|group by grouping sets|group by rollup|having|ilike|ilike any|insert|join|inner|left|like|like all|like any|limit|natural|order by|pivot|partition by|qualify|on|outer|rlike|right|sample|select|tablesample|then|top|unpivot|using|values|when|where|with)\\b",
                     "name": "keyword.control.snowflake"
                 },
                 {
