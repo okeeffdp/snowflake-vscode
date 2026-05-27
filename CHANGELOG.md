@@ -2,7 +2,7 @@
 
 All notable changes to the "sneachta-syntax" extension will be documented in this file.
 
-## 2026.05.26
+## 1.0.1
 
 - Rebranded extension from "Snowflake VSCode" to "Sneachta Syntax Highlighter"
 - Replaced icon with a generic SQL-themed icon

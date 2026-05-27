@@ -2,7 +2,7 @@
     "name": "sneachta-syntax",
     "displayName": "Sneachta Syntax Highlighter",
     "description": "Sneachta - Syntax highlighting for Snowflake SQL in VSCode. Not affiliated with, endorsed by, or sponsored by Snowflake Inc.",
-    "version": "2026.05.26",
+    "version": "1.0.1",
     "author": {
         "name": "Daniel O'Keeffe",
         "email": "okeeffdp@tcd.ie"
