@@ -1,2 +1,6 @@
 node_modules
 *.vsix
+.DS_Store
+test*
+package-lock.json
+DMCA.txt

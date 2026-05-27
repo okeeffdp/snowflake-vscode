@@ -2,7 +2,7 @@
     "name": "sneachta-syntax",
     "displayName": "Sneachta Syntax Highlighter",
     "description": "Sneachta - Syntax highlighting for Snowflake SQL in VSCode. Not affiliated with, endorsed by, or sponsored by Snowflake Inc.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": {
         "name": "Daniel O'Keeffe",
         "email": "okeeffdp@tcd.ie"
@@ -22,7 +22,7 @@
     "homepage": "https://github.com/okeeffdp/snowflake-vscode/blob/main/README.md",
     "keywords": [
         "Snowflake SQL",
-        "Sneachta",
+        "SnowQL",
         "SnowSQL",
         "SQL",
         "Data Warehouse"
@@ -30,10 +30,10 @@
     "contributes": {
         "languages": [
             {
-                "id": "snowflake",
+                "id": "sneachta",
                 "aliases": [
-                    "Snowflake",
-                    "snowflake"
+                    "Sneachta",
+                    "sneachta"
                 ],
                 "extensions": [
                     ".snowql"
@@ -43,9 +43,9 @@
         ],
         "grammars": [
             {
-                "language": "snowflake",
-                "scopeName": "source.snowflake",
-                "path": "./syntaxes/snowflake.tmLanguage.json"
+                "language": "sneachta",
+                "scopeName": "source.sneachta",
+                "path": "./syntaxes/sneachta.tmLanguage.json"
             }
         ]
     },

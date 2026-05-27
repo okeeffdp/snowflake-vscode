@@ -1,6 +1,11 @@
 # Changelog
 
-All notable changes to the "sneachta-syntax" extension will be documented in this file.
+All notable changes to the Sneachta Syntax Highlighter extension will be documented in this file.
+
+## 1.0.2
+
+- Change extension name change to sneachta-syntax.
+- Change all references to snowflake to sneachta to comply with the DMCA.
 
 ## 1.0.1
 
