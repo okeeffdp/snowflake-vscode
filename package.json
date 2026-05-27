@@ -17,9 +17,9 @@
     "icon": "assets/icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/okeeffdp/snowflake-vscode.git"
+        "url": "https://github.com/okeeffdp/sneachta-syntax.git"
     },
-    "homepage": "https://github.com/okeeffdp/snowflake-vscode/blob/main/README.md",
+    "homepage": "https://github.com/okeeffdp/sneachta-syntax/blob/main/README.md",
     "keywords": [
         "Snowflake SQL",
         "SnowQL",

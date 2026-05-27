@@ -2,7 +2,7 @@
 
 'Sneachta' is the Irish word snow.
 
-This extension will highlight keywords and functions for the [Snowflake](https://www.snowflake.com/) flavour of SQL in VSCode.
+This extension will highlight keywords and functions for  [Snowflake SQL](https://www.snowflake.com/) in VSCode.
 
 > **Disclaimer:** This extension is not affiliated with, endorsed by, or sponsored by Snowflake Inc.
 
@@ -21,7 +21,7 @@ Happy coding!
 ## Issues
 
 Feedback is always welcome.
-If you find any bugs or issues with the extension please open an issue [here on Github](https://github.com/okeeffdp/snowflake-vscode/issues).
+If you find any bugs or issues with the extension please open an issue [here on Github](https://github.com/okeeffdp/sneachta-syntax/issues).
 
 ##  Release Notes
 
