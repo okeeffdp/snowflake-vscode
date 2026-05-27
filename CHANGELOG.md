@@ -1,9 +1,13 @@
-# Change Log
+# Changelog
 
-All notable changes to the "snowflake-vscode" extension will be documented in this file.
+All notable changes to the "sneachta-syntax" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 2026.05.26
 
-## [Unreleased]
+- Rebranded extension from "Snowflake VSCode" to "Sneachta Syntax Highlighter"
+- Replaced icon with a generic SQL-themed icon
+- Added non-affiliation disclaimer
 
-- Initial release
+## 1.0.0
+
+Initial release of the Snowflake VSCode extension.

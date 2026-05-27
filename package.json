@@ -1,8 +1,8 @@
 {
-    "name": "snowflake-vscode",
-    "displayName": "Snowflake VSCode",
-    "description": "This extension will highlight keywords and functions for the [Snowflake](https://www.snowflake.com/) flavour of SQL in VSCode.",
-    "version": "0.0.1",
+    "name": "sneachta-syntax",
+    "displayName": "Sneachta Syntax Highlighter",
+    "description": "Sneachta - Syntax highlighting for Snowflake SQL in VSCode. Not affiliated with, endorsed by, or sponsored by Snowflake Inc.",
+    "version": "2026.05.26",
     "author": {
         "name": "Daniel O'Keeffe",
         "email": "okeeffdp@tcd.ie"
@@ -14,7 +14,7 @@
     "categories": [
         "Programming Languages"
     ],
-    "icon": "assets/snowflake-icon.png",
+    "icon": "assets/icon.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/okeeffdp/snowflake-vscode.git"
@@ -22,9 +22,9 @@
     "homepage": "https://github.com/okeeffdp/snowflake-vscode/blob/main/README.md",
     "keywords": [
         "Snowflake SQL",
-        "Snowflake",
+        "Sneachta",
+        "SnowSQL",
         "SQL",
-        "Snowflake Data Warehouse",
         "Data Warehouse"
     ],
     "contributes": {

@@ -1,14 +1,18 @@
-# snowflake-vscode
+# Sneachta Syntax Highlighter
+
+'Sneachta' is the Irish word snow.
 
 This extension will highlight keywords and functions for the [Snowflake](https://www.snowflake.com/) flavour of SQL in VSCode.
+
+> **Disclaimer:** This extension is not affiliated with, endorsed by, or sponsored by Snowflake Inc.
 
 ## Features
 
 Thanks for using this extension. If you have any issues you can report them via github. If you'd like to support development on this my donation links are at the bottom.
 
-The aim of this extension is the give a more accurate syntax highlighting for Snowflake SQL flavour used in the Snowlfake data warehouse. It colours keywords such as `IFF` to distinguish them from other database flavours of SQL, like Hive or Presto, so that code is more readible.
+The aim of this extension is the give a more accurate syntax highlighting for Snowflake SQL flavour used in the Snowflake data warehouse. It colours keywords such as `IFF` to distinguish them from other database flavours of SQL, like Hive or Presto, so that code is more readable.
 
-![Snowflake Code](assets/example.png)
+![Code example](assets/example.png)
 
 The plugin automatically activates Snowflake syntax highlighting for files with the extension `*.snowql`.
 
@@ -17,13 +21,11 @@ Happy coding!
 ## Issues
 
 Feedback is always welcome.
-If you find any bugs or issues with the extension please open an issue [here on Github](https://github.com/okeeffdp/snowflake-sublime-text/issues).
+If you find any bugs or issues with the extension please open an issue [here on Github](https://github.com/okeeffdp/snowflake-vscode/issues).
 
-## Release Notes
+##  Release Notes
 
-### 1.0.0
-
-Initial release of the Snowflake VSCode extension.
+Release notes can be found in the [CHANGELOG](./CHANGELOG.md).
 
 ## Support
 
